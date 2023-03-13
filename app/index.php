@@ -27,7 +27,6 @@
 
 <div class="body-div">
     <div class="left-div">
-        <div class="top-div">
             <div class="form-div">
                 <div class="header-div">
                     <div class="logo-div"><img src="all-images/images/logo.png" alt="Logo"></div>
@@ -55,7 +54,7 @@
                 </div>
 
             </div>
-        </div>
+        
     </div>
 
 

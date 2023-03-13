@@ -35,37 +35,26 @@ a{
 }
 
 
-.body-div .left-div .top-div{
-    position:absolute;
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    overflow:auto;
+
+.body-div .left-div .form-div{
+	padding:20px;
 }
 
-.body-div .left-div .top-div .form-div{
-    position: absolute;
-    width: 90%;
-    min-height: 90%;
-    top:5%;
-    left: 5%;
-}
-
-.body-div .left-div .top-div .form-div .header-div{
+.body-div .left-div .form-div .header-div{
     height: 50px;
     border-bottom:rgba(0, 0, 0, .06) 1px solid;
     margin-bottom: 20px;
 }
 
-.body-div .left-div .top-div .form-div .header-div .logo-div{
+.body-div .left-div .form-div .header-div .logo-div{
     width: 180px;
     float: left;
 }
-.body-div .left-div .top-div .form-div .header-div .logo-div img{
+.body-div .left-div .form-div .header-div .logo-div img{
     width: 100%;
 }
 
-.body-div .left-div .top-div .form-div .header-div .contact-div{
+.body-div .left-div .form-div .header-div .contact-div{
     height: 24px;
     padding-top:6px ;
     width: 30px;
@@ -77,24 +66,24 @@ a{
     cursor: pointer;
     color: #8EC64A;
 }
-.body-div .left-div .top-div .form-div .header-div .contact-div:hover{
+.body-div .left-div .form-div .header-div .contact-div:hover{
     background-color: #999;
     color: #FFF;
 }
-.body-div .left-div .top-div .form-div .header-div .contact-div i{
+.body-div .left-div .form-div .header-div .contact-div i{
     font-size: 18px;
 }
 
-.body-div .left-div .top-div .form-div .fill-form-div{
+.body-div .left-div .form-div .fill-form-div{
     width: 100%;
     padding-bottom: 30px;
 }
 
 
-.body-div .left-div .top-div .form-div .fill-form-div .title-div{
+.body-div .left-div .form-div .fill-form-div .title-div{
     padding: 8px;
 }
-.body-div .left-div .top-div .form-div .fill-form-div .text-field{
+.body-div .left-div .form-div .fill-form-div .text-field{
     width: 100%;
     height: 50px;
     border: rgba(0, 0, 0, .1) 1px solid;
@@ -113,11 +102,11 @@ a{
 	-moz-appearance:textfield;
 	outline: none !important;
 }
-.body-div .left-div .top-div .form-div .fill-form-div .text-field:focus{
+.body-div .left-div .form-div .fill-form-div .text-field:focus{
 	border:#1B5497 1px solid;
 }
 
-.body-div .left-div .top-div .form-div .fill-form-div .btn{
+.body-div .left-div .form-div .fill-form-div .btn{
     width: 100%;
     height: 50px;
     border:none;
@@ -128,7 +117,7 @@ a{
     background-image: linear-gradient(to right, #000,#8EC64A);
     color: #FFF;
 }
-.body-div .left-div .top-div .form-div .fill-form-div .btn:hover{
+.body-div .left-div .form-div .fill-form-div .btn:hover{
     background-image: linear-gradient(to left, #000,#8EC64A);
 }
 
@@ -210,32 +199,47 @@ a{
 }
 
 
-@media all and (max-width:970px) {
-    .body-div{
-        width: 96%;
-        left: 2%;
-    }
+@media all and (max-width:1100px) {
+.body-div{
+    width: 96%;
+    height: 96%;
+    left: 2%;
+    top: 2%;
 }
-@media all and (max-width:900px) {
-    body{
-        background: url(../all-images/images/sowapp-bg.jpg) center bottom;
-    }
-    .body-div{
-        background: rgba(255, 255, 255, .9);
-    }
-    .body-div .right-div{
-        display: none;
-    }
-    .body-div .left-div{
-        width: 100%;
-    }
-    .body-div .left-div .footer-div{
-        border-radius: 0px 0px 10px 10px;
-    }
+}
+@media all and (max-width:1000px) {
+.body-div{
+    position: relative;
+	min-height:600px;
+	margin:30px auto;
+	left:0px;
+
+}
+.body-div .left-div{
+    position: relative ;
+    width: 100%;
+	height:auto;
+}
+.body-div .right-div{
+    position:relative;
+    width:100%;
+    height: auto;
+}
+
 }
 
 
 
+@media all and (max-width:550px) {
+.matrix-back-div .result-div{
+	width:100%;
+	float:none;
+}
+.matrix-back-div .chart-div{
+	width:100%;
+	float:none;
+}
+}
 
 
 
